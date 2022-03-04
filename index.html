@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock Paper Scissors</title>
+	<script src="./index.js" defer></script>
+	<style>
+		body{
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: Verdana;
+		}
+		.container{
+			max-width: 600px;
+			width: 95%;
+			padding: 1rem;
+			border: 3px solid orange;
+			border-radius: 5px;
+		}
+		button{
+			padding: 0.5rem 2rem;
+			border-radius: 5px;
+			cursor: pointer;
+			font-weight: bold;
+			margin: 0.5rem 0;
+		}
+		span{
+			margin-left: 0.5rem;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<h2>Computer choice: <span id="computer-choice"></span></h2>
+		<h2>User choice: <span id="user-choice"></span></h2>
+		<h2>Result: <span id="result"></span></h2>
+
+		<button id="rock">Rock</button>
+		<button id="paper">Paper</button>
+		<button id="scissors">Scissors</button>
+	</div>
+	
+</body>
+</html>
